@@ -8,7 +8,7 @@
 .logo {
     width: 100px;
     height: 70px;
-    background-image: url("../../assets/note.png");
+    background-image: url("../assets/note.png");
     background-repeat: no-repeat;
     background-size: contain;
 }

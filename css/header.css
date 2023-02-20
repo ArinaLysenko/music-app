@@ -1,0 +1,35 @@
+.logo-text {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+header .nav-link {
+   color: rgb(228, 93, 93);
+}
+
+header .nav-link:hover, .nav-link:focus {
+    color: red;
+}
+
+header .nav-link:active {
+    color: ff4dbd;
+}
+
+header .nav-link:visited {
+    color: red;
+}
+
+.plus-badge {
+    font-size: 10px;
+    padding: 10px;
+    background: linear-gradient(101.67deg,#48cce0 7.24%,#505add 34.12%,#be40c0 62.93%,#fba82b 92.22%);
+}
+
+.rounded-circle {
+    outline: 2px, linear-gradient(101.67deg,#48cce0 7.24%,#505add 34.12%,#be40c0 62.93%,#fba82b 92.22%);
+
+}
+
+.form-control {
+    border: 0;
+}

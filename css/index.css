@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.section-title {
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    font-size: 44px;
+}
+
+.logo {
+    width: 100px;
+    height: 70px;
+    background-image: url(/assets/note.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.nav-link:hover {
+    text-decoration: none;
+    border: 1px solid orange;
+}
+
+.albums .card:hover {
+    border: 0;
+    outline: 3px solid orange;
+    box-shadow: 8px 8px 3px 3px rgba(217, 217, 219, 0.2);
+}
+
+.albums a {
+    color: gray;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+@media (max-width: 991px) {
+    .form-control {
+        border-bottom: 1px solid rgb(219, 217, 217);
+        border-radius: 0;
+    }
+  }
+
+.image-wrapper {
+    width: inherit;
+    height:inherit;
+    overflow: hidden;
+}
+
+.image-wrapper > img {
+    transition: 2s ease-in-out;
+}
+
+.image-wrapper > img:hover {
+    scale: 1.3;    
+}
+
